@@ -1,0 +1,43 @@
+:root {
+  --primary-color: #17a2b8;
+}
+.p_color {
+  color: var(--primary-color);
+}
+body {
+  background: #24353f;
+  font-family: sans-serif;
+}
+h1 {
+  font-family: sans-serif;
+}
+.content {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  text-align: center;
+  color: var(--primary-color);
+}
+.content button{
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+.content button:hover{
+    color: white;
+    background-color: var(--primary-color);
+}
+
+input::placeholder {
+  color: rgb(182, 182, 182) !important;
+}
+.form-control:focus {
+  box-shadow: 0 0 0 0 transparent !important;
+}
+.linkEle a{
+    text-decoration: none;
+}
+.linkEle a:hover  {
+    text-decoration:underline;
+}
+nav{
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+}
